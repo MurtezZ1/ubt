@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+/* global */
+.img1 {
+    height: 50px;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.img3 {
+    height: 250px;
+}
+
+.img4 {
+    height: 90px;
+}
+
+.logo {
+    height: 20px;
+}
+
+
+.bRadius5 {
+    border-radius: 5px;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.dgrid {
+    display: grid;
+}
+
+.grid2fr {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid3fr {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid4fr {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.margin20 {
+    margin: 20px;
+}
+
+.bgRed {
+    background-color: #FF0000;
+}
+
+.colorW {
+    color: white;
+}
+
+.positionR {
+    position: relative;
+}
+
+.positionA {
+    position: absolute;
+}
+
+.transforY {
+    transform: translateY(-50%);
+}
+
+.marginTop {
+    margin-top: 40px;
+}
+
+.gap35 {
+    gap: 35rem;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.border {
+    border: 1px solid #FF0000;
+}
