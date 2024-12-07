@@ -369,3 +369,31 @@ hr {
     font-size: 1.2rem;
     color: #333;
 }
+
+.car-info p {
+    margin: 0.2rem 0;
+    color: #555;
+}
+
+.car-info .price {
+    font-size: 1.5rem;
+    color: #FF0000;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.car-info button {
+    padding: 0.5rem 1rem;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    display: block;
+    width: 100%;
+}
+
+.car-info button:hover {
+    background-color: rgb(251, 86, 21);
+}
