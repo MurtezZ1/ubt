@@ -392,6 +392,24 @@ hr {
 .car-info button:hover {
     background-color: rgb(251, 86, 21);
 }
+.highlight {
+    font-weight: bold;
+}
+
+.bacgroundimg {
+    background-image: url("./img/rolls.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 80%;
+    color: white;
+    padding: 70px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+
 /* index3 */ 
 .car-listings {
     display: grid;
