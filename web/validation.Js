@@ -28,4 +28,35 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+// SIGNUP 
+const signupForm = document.getElementById('signup-form');
+if (signupForm) {
+    signupForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const name = document.getElementById('signup-name').value.trim();
+        const email = document.getElementById('signup-email').value.trim();
+        const password = document.getElementById('signup-password').value.trim();
+
+        if (name === '') {
+            alert('Full Name is required.');
+            return;
+        }
+        if (!validateEmail(email)) {
+            alert('Please enter a valid email address.');
+            return;
+        }
+        if (password.length < 6) {
+            alert('Password must be at least 6 characters long.');
+            return;
+        }
+        alert('Signup Successful!');
+        window.location.href = './index.html';
+    });
+}
+
+function validateEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
+;
 
