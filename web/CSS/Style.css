@@ -392,3 +392,111 @@ hr {
 .car-info button:hover {
     background-color: rgb(251, 86, 21);
 }
+/* index3 */ 
+.car-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.car-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.car-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-info {
+    padding: 1rem;
+}
+
+.car-info h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.car-info p {
+    margin: 0.2rem 0;
+    color: #555;
+}
+
+.car-info .price {
+    font-size: 1.5rem;
+    color: #FF0000;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.car-info button {
+    padding: 0.5rem 1rem;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    display: block;
+    width: 100%;
+}
+
+.car-info button:hover {
+    background-color: rgb(251, 86, 21);
+}
+
+/* vazhdim */
+.slider {
+    position: relative;
+    width: 60%;
+    margin: 0 20%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.button1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    z-index: 10;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
